@@ -119,6 +119,7 @@ public class Gpay extends javax.swing.JFrame {
         else
         {
             JOptionPane.showMessageDialog(this,"Order Successful");
+            dispose();
         }
     }//GEN-LAST:event_jButton1ActionPerformed
 
